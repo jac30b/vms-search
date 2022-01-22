@@ -12,7 +12,7 @@ class FileType(Enum):
 
 class FileHelper:
     def __init__(self):
-        self.logger = Logger.get_logger(__name__, 'file_helper.log', 'FILE HELPER')
+        self.logger = Logger.get_logger(__name__, 'file_helper.log', 'FILE HELPER', True)
 
     """
     Class that provides functions useful to work with files
