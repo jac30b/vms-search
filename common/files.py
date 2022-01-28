@@ -12,11 +12,14 @@ class FileType(Enum):
 
 class FileHelper:
     def __init__(self):
-        self.logger = Logger.get_logger(__name__, 'file_helper.log', 'FILE HELPER', True)
+        self.logger = Logger.get_logger(
+            __name__, "file_helper.log", "FILE HELPER", True
+        )
 
     """
     Class that provides functions useful to work with files
     """
+
     def process_files(self, files: List[str]) -> Dict[str, list]:
         """
 
@@ -32,7 +35,7 @@ class FileHelper:
                 self.logger.debug(f"Received file: {path}")
                 if self.check_for_file(path):
                     ext = op.splitext(path)[1]
-                    if ext not in ['.txt', '.doc', '.docx', '.log']:
+                    if ext not in [".txt", ".doc", ".docx", ".log"]:
                         self.logger.debug(f"Unsupported file extension: {path}")
                         continue
                     else:
@@ -72,4 +75,4 @@ class FileHelper:
 
 
 f = FileHelper()
-print(f.process_files(["../logs/file_helper.log"]));
+print(f.process_files(["../logs/file_helper.log"]))
