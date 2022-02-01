@@ -3,9 +3,6 @@ from common.ddl import DLList
 
 
 class Cache:
-<<<<<<< Updated upstream
-    pass
-=======
     def __init__(self, capacity):
         self.capacity = capacity
         self.hash = Hash(capacity)
@@ -36,4 +33,3 @@ class Cache:
             self.dlist.pop_node(lookup)
             self.dlist.push_back(lookup.key, lookup.value)
             return lookup.value
->>>>>>> Stashed changes

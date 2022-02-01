@@ -5,13 +5,14 @@ import json
 
 available_commands = ["search"]
 
+
 class QueryError(Exception):
     pass
 
 
 class Query:
     def __init__(self) -> None:
-        self.logger = Logger.get_logger(__name__,'parser.log', 'PARESER', False)
+        self.logger = Logger.get_logger(__name__, "parser.log", "PARESER", False)
 
     def parse_repl(self, query):
         self.logger.debug(f"Parsing query: {query}")
@@ -20,7 +21,4 @@ class Query:
             self.logger.debug(f"Command doesn't exist: {command}")
             raise QueryError(f"Command '{command}' not found")
 
-        return json.dumps({
-            'command': command,
-            'query': ' '.join(query.split()[1:])
-        })
+        return json.dumps({"command": command, "query": " ".join(query.split()[1:])})

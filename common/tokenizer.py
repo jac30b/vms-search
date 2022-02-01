@@ -33,3 +33,4 @@ class Tokenizer:
     def tokenize_and_stem(self, words: Dict[str, str]) -> Dict[str, List[str]]:
         toknized = self.tokenize(words)
         return self.stem(toknized)
+
