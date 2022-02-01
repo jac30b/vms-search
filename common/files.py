@@ -2,7 +2,7 @@ from typing import *
 from enum import Enum
 import re
 import os.path as op
-from logger import Logger
+from common.logger import Logger
 
 
 class FileType(Enum):
