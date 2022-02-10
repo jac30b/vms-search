@@ -1,10 +1,11 @@
-
 from typing import *
 from enum import Enum
 import re
 import os.path as op
 from common.logger import Logger
 import codecs
+from docx import Document
+
 
 class FileType(Enum):
     WEB_RESOURCE = 0
@@ -37,12 +38,16 @@ class FileHelper:
                 self.logger.debug(f"Received file: {path}")
                 if self.check_for_file(path):
                     ext = op.splitext(path)[1]
-                    if ext not in [".txt", ".doc", ".docx", ".log"]:
+                    if ext == '.doc' or ext == '.docx':
+                        doc = Document(path)
+                        file_content = ''.join([p.text for p in doc.paragraphs])
+                        content[path] = file_content
+                    elif ext in ['.txt']:
+                        file_content = ''.join(codecs.open(path, 'r', encoding='utf-8', errors='replace').readlines())
+                        content[path] = file_content
+                    else:
                         self.logger.debug(f"Unsupported file extension: {path}")
                         continue
-                    else:
-                        file_content = ''.join(codecs.open(path, 'r', encoding='utf-8', errors='ignore').readlines())
-                        content[path] = file_content
                 else:
                     raise FileNotFoundError
         return content

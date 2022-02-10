@@ -61,3 +61,81 @@
 [PARESER] 2022-02-10 21:21:36,469: Parsing query: paragraph
 [PARESER] 2022-02-10 21:21:36,469: Command doesn't exist: paragraph
 [PARESER] 2022-02-10 21:21:39,492: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:28:40,510: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 21:28:46,639: Parsing query: lorem
+[PARESER] 2022-02-10 21:28:46,639: Command doesn't exist: lorem
+[PARESER] 2022-02-10 21:28:49,757: Parsing query: search lorem
+[PARESER] 2022-02-10 21:29:01,701: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 21:29:05,109: Parsing query: paragraph
+[PARESER] 2022-02-10 21:29:05,110: Command doesn't exist: paragraph
+[PARESER] 2022-02-10 21:29:10,021: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:31:29,683: Parsing query: load demo.docx
+[PARESER] 2022-02-10 21:31:35,907: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:31:55,731: Parsing query: load ex1.docx ex2.docx demo.docx
+[PARESER] 2022-02-10 21:32:01,003: Parsing query: search lorem
+[PARESER] 2022-02-10 21:32:51,642: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 21:33:24,713: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:35:18,760: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 21:35:26,415: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:37:41,501: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 21:37:46,741: Parsing query: search parahraph
+[PARESER] 2022-02-10 21:41:39,513: Parsing query: load demo.c
+[PARESER] 2022-02-10 21:41:46,122: Parsing query: load demo.docx
+[PARESER] 2022-02-10 21:41:49,082: Parsing query: search lorem
+[PARESER] 2022-02-10 21:42:53,241: Parsing query: load demo.docx
+[PARESER] 2022-02-10 21:42:59,096: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:43:59,904: Parsing query: load demo.docx
+[PARESER] 2022-02-10 21:44:18,119: Parsing query: search paragarph
+[PARESER] 2022-02-10 21:56:06,151: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 21:56:37,934: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 21:56:46,846: Parsing query: search lorem
+[PARESER] 2022-02-10 21:57:17,501: Parsing query: load demo.docx
+[PARESER] 2022-02-10 21:57:21,653: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:57:50,421: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 21:57:56,069: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:58:19,084: Parsing query: load ex1.docx ex2.docx demo.docx
+[PARESER] 2022-02-10 21:58:23,076: Parsing query: search para
+[PARESER] 2022-02-10 21:58:27,108: Parsing query: paragraph
+[PARESER] 2022-02-10 21:58:27,109: Command doesn't exist: paragraph
+[PARESER] 2022-02-10 21:58:30,148: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:58:38,708: Parsing query: search lorem
+[PARESER] 2022-02-10 21:58:50,372: Parsing query: search Lorem Ipsum
+[PARESER] 2022-02-10 22:00:34,418: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 22:00:45,394: Parsing query: lload ex1.docx ex2.docx demo.docx
+[PARESER] 2022-02-10 22:00:45,395: Command doesn't exist: lload
+[PARESER] 2022-02-10 22:00:57,505: Parsing query: load ex1.docx ex2.docx demo.docx
+[PARESER] 2022-02-10 22:01:05,602: Parsing query: search paragraph
+[PARESER] 2022-02-10 22:01:10,338: Parsing query: search Lorem Ipsum
+[PARESER] 2022-02-10 23:28:08,998: Parsing query: load ex1.docx ex2.docx demo.docx
+[PARESER] 2022-02-10 23:28:15,662: Parsing query: search paragraph
+[PARESER] 2022-02-10 23:28:48,957: Parsing query: load ex1.docx ex2.docx demo.docx
+[PARESER] 2022-02-10 23:28:55,301: Parsing query: search paragraph
+[PARESER] 2022-02-10 23:29:05,718: Parsing query: search paragraph
+[PARESER] 2022-02-10 23:31:51,588: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 23:31:55,659: Parsing query: search lorem
+[PARESER] 2022-02-10 23:32:14,187: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 23:32:18,859: Parsing query: search lorem
+[PARESER] 2022-02-10 23:32:38,362: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 23:32:42,266: Parsing query: search lorem
+[PARESER] 2022-02-10 23:33:01,162: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 23:33:04,122: Parsing query: search lorem
+[PARESER] 2022-02-10 23:33:24,650: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 23:33:27,194: Parsing query: search lorem
+[PARESER] 2022-02-10 23:33:37,905: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 23:33:40,729: Parsing query: search lorem
+[PARESER] 2022-02-10 23:33:46,633: Parsing query: search lorem
+[PARESER] 2022-02-10 23:33:53,617: Parsing query: searcg Lorem Ipsum
+[PARESER] 2022-02-10 23:33:53,618: Command doesn't exist: searcg
+[PARESER] 2022-02-10 23:33:59,586: Parsing query: search Lorem Ipsum
+[PARESER] 2022-02-10 23:34:03,761: Parsing query: search Lorem Ipsum
+[PARESER] 2022-02-10 23:34:18,378: Parsing query: load ex1.docx ex2.docx demo.docx
+[PARESER] 2022-02-10 23:34:23,713: Parsing query: search paragraph
+[PARESER] 2022-02-10 23:34:28,089: Parsing query: search paragraph
+[PARESER] 2022-02-10 23:34:31,800: Parsing query: search Lorem Ipsum
+[PARESER] 2022-02-10 23:34:34,377: Parsing query: search Lorem
+[PARESER] 2022-02-10 23:34:38,625: Parsing query: search Loremmm
+[PARESER] 2022-02-10 23:35:13,329: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 23:37:15,119: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 23:37:21,223: Parsing query: search lorem
+[PARESER] 2022-02-10 23:37:59,942: Parsing query: load ex1.docx
+[PARESER] 2022-02-10 23:38:03,606: Parsing query: search lorem
