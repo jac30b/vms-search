@@ -12,3 +12,94 @@
 [FILE HELPER] 2022-02-01 13:03:06,006: Received file: ../logs/file_helper.log
 [FILE HELPER] 2022-02-01 13:03:12,095: Received file: ../logs/file_helper.log
 [FILE HELPER] 2022-02-01 13:03:18,522: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-01 15:46:08,266: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-01 15:47:10,941: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-01 15:47:29,708: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-01 15:48:09,648: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 00:46:27,395: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 00:46:27,396: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 00:46:49,879: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 00:46:49,879: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 00:47:34,257: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 00:47:34,257: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 00:57:38,790: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 00:57:38,791: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:08:23,188: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:08:23,188: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:08:33,192: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:08:33,192: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:08:46,514: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:08:46,514: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:08:56,546: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:08:56,546: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:12:15,938: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:12:15,938: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:12:53,815: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:12:53,816: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:13:37,199: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:13:37,199: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:15:14,939: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:15:14,940: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:15:51,819: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-07 01:15:51,819: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 15:41:32,490: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 15:41:55,008: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 15:41:55,008: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:46:12,221: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:46:12,221: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:48:18,283: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:48:18,283: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:48:37,563: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:48:37,563: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:48:47,258: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:48:47,258: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:49:22,538: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:49:22,538: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:53:14,387: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:53:14,387: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 17:53:19,628: Received file: test.py
+[FILE HELPER] 2022-02-09 17:53:19,628: Received file: test.py
+[FILE HELPER] 2022-02-09 17:53:19,628: File doesn't exist: test.py
+[FILE HELPER] 2022-02-09 17:53:19,628: File doesn't exist: test.py
+[FILE HELPER] 2022-02-09 18:25:12,309: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 18:25:12,309: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 18:26:11,208: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 18:26:11,208: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 18:26:15,352: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 18:26:15,352: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 18:27:03,136: Received file: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 18:27:03,136: File doesn't exist: ../logs/file_helper.log
+[FILE HELPER] 2022-02-09 23:26:40,466: Received file: .
+[FILE HELPER] 2022-02-09 23:26:40,466: Specified file is directory: .
+[FILE HELPER] 2022-02-09 23:26:57,593: Received file: ./repl.py
+[FILE HELPER] 2022-02-09 23:26:57,593: Received file: ./repl.py
+[FILE HELPER] 2022-02-09 23:26:57,593: File doesn't exist: ./repl.py
+[FILE HELPER] 2022-02-09 23:26:57,593: File doesn't exist: ./repl.py
+[FILE HELPER] 2022-02-10 10:44:52,762: Received file: /Users/joker/Documents/fun/vms-search
+[FILE HELPER] 2022-02-10 10:44:52,762: Specified file is directory: /Users/joker/Documents/fun/vms-search
+[FILE HELPER] 2022-02-10 14:55:20,736: Received file: ./ex1.docx
+[FILE HELPER] 2022-02-10 19:18:52,400: Received file: ./ex1.py
+[FILE HELPER] 2022-02-10 19:18:52,400: File doesn't exist: ./ex1.py
+[FILE HELPER] 2022-02-10 19:19:00,774: Received file: ./ex1.docx
+[FILE HELPER] 2022-02-10 19:19:00,774: Received file: ./ex1.docx
+[FILE HELPER] 2022-02-10 19:22:17,252: Received file: ./ex1.docx
+[FILE HELPER] 2022-02-10 19:25:29,810: Received file: ./ex1.docx
+[FILE HELPER] 2022-02-10 19:25:29,810: File doesn't exist: ./ex1.docx
+[FILE HELPER] 2022-02-10 19:25:58,193: Received file: ex1.docx
+[FILE HELPER] 2022-02-10 19:26:28,009: Received file: ex1.docx
+[FILE HELPER] 2022-02-10 19:29:49,031: Received file: ex1.docx
+[FILE HELPER] 2022-02-10 19:39:00,069: Received file: ex1.docx
+[FILE HELPER] 2022-02-10 19:39:00,073: Received file: ex2.docx
+[FILE HELPER] 2022-02-10 19:39:00,092: Received file: demo.docx
+[FILE HELPER] 2022-02-10 19:41:00,404: Received file: ex1.docx
+[FILE HELPER] 2022-02-10 19:41:00,407: Received file: demo.docx
+[FILE HELPER] 2022-02-10 19:41:28,588: Received file: ex1.docx
+[FILE HELPER] 2022-02-10 19:41:28,592: Received file: demo.docx
+[FILE HELPER] 2022-02-10 19:43:29,186: Received file: demo.docx
+[FILE HELPER] 2022-02-10 21:19:37,376: Received file: mock.docx
+[FILE HELPER] 2022-02-10 21:19:37,377: File doesn't exist: mock.docx
+[FILE HELPER] 2022-02-10 21:19:51,186: Received file: demo.docx
+[FILE HELPER] 2022-02-10 21:20:28,032: Received file: ex1.docx
+[FILE HELPER] 2022-02-10 21:20:28,036: Received file: demo.docx
+[FILE HELPER] 2022-02-10 21:21:33,687: Received file: ex1.docx
+[FILE HELPER] 2022-02-10 21:21:33,691: Received file: demo.docx

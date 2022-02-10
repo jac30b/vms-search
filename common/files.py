@@ -1,9 +1,10 @@
+
 from typing import *
 from enum import Enum
 import re
 import os.path as op
 from common.logger import Logger
-
+import codecs
 
 class FileType(Enum):
     WEB_RESOURCE = 0
@@ -31,6 +32,7 @@ class FileHelper:
             f_type = FileHelper.resolve_path(path)
             if f_type == FileType.WEB_RESOURCE:
                 self.logger.debug(f"Received web resource: {path}")
+                # request.get()
             elif f_type == FileType.FILE:
                 self.logger.debug(f"Received file: {path}")
                 if self.check_for_file(path):
@@ -39,10 +41,10 @@ class FileHelper:
                         self.logger.debug(f"Unsupported file extension: {path}")
                         continue
                     else:
-                        file_content = open(path).readlines()
+                        file_content = ''.join(codecs.open(path, 'r', encoding='utf-8', errors='ignore').readlines())
                         content[path] = file_content
                 else:
-                    continue
+                    raise FileNotFoundError
         return content
 
     @staticmethod
@@ -73,6 +75,7 @@ class FileHelper:
             self.logger.debug(f"File doesn't exist: {path}")
             return False
 
-
-f = FileHelper()
-print(f.process_files(["../logs/file_helper.log"]))
+    @staticmethod
+    def parse_files(files):
+        files_parsed = files.split(' ')
+        return files_parsed

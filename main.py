@@ -9,7 +9,10 @@ def main():
     args = CLI.parse()
     evaluator = Eval()
     if args.files:
-        done = evaluator.preprocess(args.files)
+        if evaluator.preprocess(args.files) == False:
+            #TODO: Best message
+            print("File was not found")
+            return 
     else:
         print("You must specify some files")
         return
@@ -17,7 +20,4 @@ def main():
 
 
 if __name__ == "__main__":
-    if done:
-        REPL.run_repl()
-    else:
-        print("Ops, there was some error while preprocessing files")
+    REPL.run_repl()

@@ -13,12 +13,9 @@ from typing import *
 
 class Vectorizer:
     def __init__(self, files) -> None:
-        # file_helper = FileHelper()
-        # self.documents = file_helper.process_files(files)
-        self.documents = {
-            "/home/tmp": """At eight o'clock on Thursday morning Arthur didn't feel very good.""",
-            "test": "TEST TEST test",
-        }
+        file_helper = FileHelper()
+        self.documents = file_helper.process_files(files)
+        print(self.documents)
         tokenizer = Tokenizer()
         vectorizer = TfidfVectorizer(
             tokenizer=tokenizer.tokenize_and_stem, stop_words="english"
@@ -32,8 +29,5 @@ class Vectorizer:
         query_vector = self.vectorizer.transform([query]).todense()
         cos_sim = cosine_similarity(query_vector, self.document_vector)
         ranks = (-cos_sim).argsort(axis=None)
+        print(ranks)
         return list(self.documents.keys())[ranks[0]]
-
-
-tmp = Vectorizer(["test"])
-print(tmp.process_query(""))

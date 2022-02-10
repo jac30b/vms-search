@@ -1,3 +1,63 @@
 [PARESER] 2022-01-22 23:13:32,792: Parsing query: test
 [PARESER] 2022-01-22 23:13:32,792: Command doesn't exist: test
 [PARESER] 2022-01-22 23:13:38,654: Parsing query: search test
+[PARESER] 2022-02-01 15:37:34,590: Parsing query: search test
+[PARESER] 2022-02-01 15:37:51,165: Parsing query: hh
+[PARESER] 2022-02-01 15:37:51,166: Command doesn't exist: hh
+[PARESER] 2022-02-07 00:46:56,882: Parsing query: search lll
+[PARESER] 2022-02-07 00:47:05,146: Parsing query: load_files 
+[PARESER] 2022-02-07 00:47:05,147: Command doesn't exist: load_files
+[PARESER] 2022-02-07 00:47:40,635: Parsing query: load_files test.py
+[PARESER] 2022-02-07 00:47:50,138: Parsing query: load_files test.py test.py
+[PARESER] 2022-02-07 01:12:56,259: Parsing query: ls
+[PARESER] 2022-02-07 01:12:56,261: Command doesn't exist: ls
+[PARESER] 2022-02-07 01:13:00,908: Parsing query: load files
+[PARESER] 2022-02-07 01:13:00,908: Command doesn't exist: load
+[PARESER] 2022-02-07 01:13:07,036: Parsing query: load_files test.py
+[PARESER] 2022-02-07 01:13:39,947: Parsing query: load_files
+[PARESER] 2022-02-07 01:15:21,821: Parsing query: load_files
+[PARESER] 2022-02-07 01:15:54,270: Parsing query: load_files
+[PARESER] 2022-02-09 15:42:03,674: Parsing query: load_files test.py
+[PARESER] 2022-02-09 17:46:15,751: Parsing query: load_files
+[PARESER] 2022-02-09 17:48:22,422: Parsing query: load_files
+[PARESER] 2022-02-09 17:48:41,077: Parsing query: load_files
+[PARESER] 2022-02-09 17:48:50,669: Parsing query: load file
+[PARESER] 2022-02-09 17:48:50,669: Command doesn't exist: load
+[PARESER] 2022-02-09 17:48:55,701: Parsing query: load_files test.py
+[PARESER] 2022-02-09 17:49:27,773: Parsing query: load_files test.py
+[PARESER] 2022-02-09 17:53:19,626: Parsing query: load_files test.py
+[PARESER] 2022-02-09 23:26:40,463: Parsing query: load_files .
+[PARESER] 2022-02-09 23:26:57,591: Parsing query: load_files ./repl.py
+[PARESER] 2022-02-09 23:27:00,008: Parsing query: ls
+[PARESER] 2022-02-09 23:27:00,008: Command doesn't exist: ls
+[PARESER] 2022-02-10 10:44:52,758: Parsing query: load_files /Users/joker/Documents/fun/vms-search
+[PARESER] 2022-02-10 14:55:20,732: Parsing query: load_files ./ex1.docx
+[PARESER] 2022-02-10 19:18:52,396: Parsing query: load_files ./ex1.py
+[PARESER] 2022-02-10 19:19:00,772: Parsing query: load_files ./ex1.docx
+[PARESER] 2022-02-10 19:22:17,250: Parsing query: load_files ./ex1.docx
+[PARESER] 2022-02-10 19:25:29,807: Parsing query: load_files ./ex1.docx
+[PARESER] 2022-02-10 19:25:58,190: Parsing query: load_files ex1.docx
+[PARESER] 2022-02-10 19:26:28,007: Parsing query: load_files ex1.docx
+[PARESER] 2022-02-10 19:29:49,027: Parsing query: load_files ex1.docx
+[PARESER] 2022-02-10 19:34:08,761: Parsing query: vulputate
+[PARESER] 2022-02-10 19:34:08,763: Command doesn't exist: vulputate
+[PARESER] 2022-02-10 19:34:15,696: Parsing query: search vulputate
+[PARESER] 2022-02-10 19:39:00,067: Parsing query: load_files ex1.docx ex2.docx demo.docx
+[PARESER] 2022-02-10 19:39:07,907: Parsing query: search strucutral
+[PARESER] 2022-02-10 19:39:28,315: Parsing query: searchA paragraph with
+[PARESER] 2022-02-10 19:39:28,315: Command doesn't exist: searchA
+[PARESER] 2022-02-10 19:39:31,595: Parsing query: search A paragraph with
+[PARESER] 2022-02-10 19:41:00,402: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 19:41:28,586: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 19:43:29,184: Parsing query: load demo.docx 
+[PARESER] 2022-02-10 21:19:37,372: Parsing query: load mock.docx
+[PARESER] 2022-02-10 21:19:51,184: Parsing query: load demo.docx
+[PARESER] 2022-02-10 21:20:11,847: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:20:28,030: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 21:20:29,918: Parsing query: paragraph
+[PARESER] 2022-02-10 21:20:29,918: Command doesn't exist: paragraph
+[PARESER] 2022-02-10 21:20:32,086: Parsing query: search paragraph
+[PARESER] 2022-02-10 21:21:33,684: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 21:21:36,469: Parsing query: paragraph
+[PARESER] 2022-02-10 21:21:36,469: Command doesn't exist: paragraph
+[PARESER] 2022-02-10 21:21:39,492: Parsing query: search paragraph

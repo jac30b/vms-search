@@ -3,7 +3,7 @@ from common.logger import Logger
 import json
 
 
-available_commands = ["search"]
+available_commands = ["search", "load"]
 
 
 class QueryError(Exception):
@@ -21,4 +21,4 @@ class Query:
             self.logger.debug(f"Command doesn't exist: {command}")
             raise QueryError(f"Command '{command}' not found")
 
-        return json.dumps({"command": command, "query": " ".join(query.split()[1:])})
+        return json.dumps({"command": command, "content": " ".join(query.split()[1:])})
