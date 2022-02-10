@@ -139,3 +139,11 @@
 [PARESER] 2022-02-10 23:37:21,223: Parsing query: search lorem
 [PARESER] 2022-02-10 23:37:59,942: Parsing query: load ex1.docx
 [PARESER] 2022-02-10 23:38:03,606: Parsing query: search lorem
+[PARESER] 2022-02-10 23:40:12,901: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 23:40:52,483: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 23:40:56,701: Parsing query: search para
+[PARESER] 2022-02-10 23:41:01,293: Parsing query: search paragraph
+[PARESER] 2022-02-10 23:41:58,253: Parsing query: load ex1.docx demo.docx 
+[PARESER] 2022-02-10 23:42:01,893: Parsing query: search paragarph
+[PARESER] 2022-02-10 23:42:18,086: Parsing query: load ex1.docx demo.docx
+[PARESER] 2022-02-10 23:42:22,965: Parsing query: search paragraph

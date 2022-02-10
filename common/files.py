@@ -24,6 +24,7 @@ class FileHelper:
 
     def process_files(self, files: List[str]) -> Dict[str, list]:
         """
+        Function reads the different types of files
 
         :param files:
         :return:
@@ -55,8 +56,9 @@ class FileHelper:
     @staticmethod
     def resolve_path(path: str) -> FileType:
         """
+        Chcecks whether the path is to the file on the disk or to some web resource
 
-        :param path:
+        :param path: string
         :return:
         """
         if re.search(r"^http://|^https://", path):
@@ -66,8 +68,9 @@ class FileHelper:
 
     def check_for_file(self, path: str) -> bool:
         """
+        Checks if the file exists
 
-        :param path:
+        :param path: string
         :return:
         """
         if op.exists(path):
@@ -81,6 +84,6 @@ class FileHelper:
             return False
 
     @staticmethod
-    def parse_files(files):
+    def parse_files(files: str) -> List[str] :
         files_parsed = files.split(' ')
         return files_parsed

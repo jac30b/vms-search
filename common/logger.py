@@ -5,20 +5,10 @@ import os.path
 
 
 class Logger:
-    """ """
-
     @staticmethod
     def get_logger(
         name: str, file: str, module_name: str, write_stdout: bool
     ) -> logging.Logger:
-        """
-
-        :param name:
-
-        :param file:
-        :param module_name:
-        :return:
-        """
         logger = logging.getLogger(name)
         logger.setLevel(logging.DEBUG)
         pwd = pathlib.Path().resolve()

@@ -1,4 +1,3 @@
-from matplotlib.style import available
 from common.logger import Logger
 import json
 

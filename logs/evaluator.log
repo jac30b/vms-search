@@ -52,3 +52,7 @@
 [EVALUATOR] 2022-02-10 23:35:13,330: Preprocessing for files ['ex1.docx']
 [EVALUATOR] 2022-02-10 23:37:15,120: Preprocessing for files ['ex1.docx']
 [EVALUATOR] 2022-02-10 23:37:59,943: Preprocessing for files ['ex1.docx']
+[EVALUATOR] 2022-02-10 23:40:12,902: Preprocessing for files ['ex1.docx', 'demo.docx']
+[EVALUATOR] 2022-02-10 23:40:52,484: Preprocessing for files ['ex1.docx', 'demo.docx']
+[EVALUATOR] 2022-02-10 23:41:58,254: Preprocessing for files ['ex1.docx', 'demo.docx']
+[EVALUATOR] 2022-02-10 23:42:18,087: Preprocessing for files ['ex1.docx', 'demo.docx']

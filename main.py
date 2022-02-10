@@ -10,7 +10,6 @@ def main():
     evaluator = Eval()
     if args.files:
         if evaluator.preprocess(args.files) == False:
-            #TODO: Best message
             print("File was not found")
             return 
     else:
