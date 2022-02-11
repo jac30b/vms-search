@@ -6,3 +6,6 @@ run:
 
 test:
 	cd ${TEST_DIR} && ${PYTHON} -m pytest
+
+install:
+	pip3 install -r requirements.txt

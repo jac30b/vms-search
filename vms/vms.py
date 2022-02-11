@@ -1,7 +1,5 @@
-from curses import resetty
-from functools import cache
+
 from os import stat
-from matplotlib.pyplot import pink
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import sys
